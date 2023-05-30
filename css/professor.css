@@ -1,0 +1,230 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding:0px;
+    color:black;
+
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #36362E;
+}
+
+/* ---- */
+
+.intro_bg{
+    background-color: white;
+    width:100%;
+    height: 100px;
+    border-bottom: 1px solid lightgray;
+}
+
+.header{
+    display: flex;
+    width: 1280px;
+    margin: auto;
+    height: 100px;
+}
+
+
+.searchArea > img {
+    width: 180px;
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    float: left;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-top: 10px;
+    line-height: 86px;
+    width: calc(1280px - 300px);
+}
+
+.nav > li{
+    margin-left: 60px;
+    cursor: pointer;
+}
+.nav > li > a{
+    color: black;
+}
+
+
+
+/*professor*/
+
+.professor_main {
+    width: 100%;
+    height: 1800px;
+    padding-top: 100px;
+}
+
+
+.professor_profile {
+    width: 1280px;
+    display: flex;
+    margin: 49px auto;
+    height: 1700px;
+}
+
+.professor_profile > .professor_profile_intro {
+    flex: 2;
+    height: 1650px;
+    padding-left: 69px;
+}
+
+.professor_profile > .professor_profile_doit {
+    flex : 7;
+    height: 1650px;
+}
+
+/* professor_profile_intro*/
+.professor_intro {
+    padding-left: 49px;
+}
+.professor_profile_intro img{
+    width: 100%;
+    height: auto;
+}
+
+.professor_about h2 {
+    margin-top: 24px;
+    text-align: center;
+}
+.professor_about {
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #1f1f1f;
+}
+
+.professor_profile table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-top: 49px;
+}
+.professor_profile td {
+    padding-top: 8px;
+}
+.professor_profile td:first-child {
+    width: 20%;
+    vertical-align: top;
+    font-weight: bold;
+    color:#36362E
+}
+.professor_profile td:nth-child(2) {
+    width: 80%;
+    padding-left: 20px;
+}
+
+
+/* professor_profile_doit*/
+.professor_profile_doit > div {
+    margin-bottom: 100px;
+    margin-left: 49px;
+    margin-right: 49px;
+}
+
+
+/* Education */
+.professor_profile_doit > .education table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.professor_profile_doit > .education table td {
+    text-align: left;
+    background-color: white;
+    padding-left: 20px;
+}
+
+/* research interests */
+.professor_profile_doit > .reserch_interests table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.professor_profile_doit > .reserch_interests table td {
+    text-align: left;
+    background-color: white;
+    padding-left: 20px;
+}
+
+/* main journal */
+.professor_profile_doit table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+.professor_profile_doit table td {
+    padding: 8px;
+    border: 1px solid lightgrey;
+  }
+
+  .professor_profile_doit .journal {
+    padding-left: 20px;
+}
+.professor_profile_doit td:first-child {
+    width: 10%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 14px;
+    background-color:rgba(123, 202, 143, 0.2)
+}
+.professor_profile_doit td:nth-child(2){
+    width: 90%;
+    font-weight: lighter;
+    font-size: 12px;
+    color: #578270;
+}
+.professor_profile_doit table td > .paper-title {
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+/* teching field */
+.professor_profile_doit > .teaching_field table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.professor_profile_doit > .teaching_field table td {
+    text-align: left;
+    background-color: white;
+    padding-left: 20px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    background: white;
+    padding: 30px;
+    border-top: 5px solid #578270;
+}
+footer > div:first-child {
+    flex: 4;
+    text-align: center;
+    color: black;
+}
+footer > div:last-child {
+    flex: 9;
+    color : black;
+}
+
+footer > div > img {
+    width: 300px;
+    height: auto;
+    padding-top: -20px;
+}
